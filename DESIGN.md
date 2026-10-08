@@ -51,14 +51,15 @@ Keep reading text within approximately 60 characters per line.
 
 Home: one featured portrait and a brief introduction.
 This is a proposed starting arrangement; Mariam chooses the featured portrait.
-Gallery: three columns on wide screens, two on medium screens, one on phones.
-Use equal 4:5 warm-white image display areas in Gallery. Center each complete
-image within its area using object-fit: contain. Reserve two heading lines
-for every gallery title so the notes begin on the same line across each row.
-Keep 16px between image and caption and 8px between title and note.
-Reserve two heading lines only on layouts with multiple columns; use natural
-title height on phones. Align shorter titles to the bottom of the reserved
-heading area so the visible title-to-note gap stays compact. No borders or frames.
+Gallery: one portrait per row, with its title and note beside it on desktop
+and medium screens. Keep the image on the left and text on the right for a
+steady reading rhythm. Use a centered maximum row width of 960px, a 48px
+column gap and 64px between rows. Image areas are warm white, with a maximum
+height of 640px and object-fit: contain. Each full image remains visible.
+Use italic Georgia titles at 28px and left-aligned notes beneath them, with
+16px between title and note. No reserved heading height or ornamental frames.
+On phones, stack each image above its title and note; use 24px titles,
+24px between image and text, and 64px between portraits.
 About: a short introduction with generous surrounding space.
 Let pages grow naturally when content requires it; never shrink artwork or text to force a single screen.
 
@@ -68,7 +69,7 @@ Preserve the original image files.
 Keep the monochrome treatment on hover and focus.
 Show each complete portrait without cropping or stretching.
 Use generous warm-white space around images, without ornamental frames.
-Place supplied artwork notes beneath their portraits.
+Place supplied artwork notes beneath their titles; beside Gallery portraits on desktop and below them on phones.
 Do not use full-bleed images, collages, or invented captions.
 
 Missing images use plain grey boxes labelled:
@@ -118,7 +119,7 @@ Center the site name above the wrapping navigation. Center the home introduction
 above one complete portrait, with an underlined View Gallery link below it.
 Use a maximum portrait width of 360px on Home and abundant warm-white space.
 The atmosphere is formal, contemplative and gallery-like.
-Gallery retains a three/two/one-column grid; notes stay with their portraits.
+Gallery presents one portrait per row; its title and note sit beside the image on desktop and beneath it on phones.
 About uses a centered, narrow reading column. Login uses the same typography
 and a centered form, with the sparse original burgundy pattern at the outer edges.
 Home copy is “Mariam's portrait portfolio.” and

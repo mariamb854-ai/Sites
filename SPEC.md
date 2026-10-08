@@ -42,9 +42,9 @@ Approved note: "Navigating adolescence and the transformation that comes with it
 Purpose: present the portraits in an organized, airy collection.
 Content:
 - Page heading and the one-line description: "My work".
-- Responsive portrait grid.
+- One portrait per row with its title and note beside the image on desktop and beneath it on phones.
 - Complete, uncropped images displayed in black and white.
-- Mariam's supplied notes beneath the corresponding images.
+- Mariam's supplied notes beneath each title, beside the image on desktop and below it on phones.
 - Artwork titles only where supplied.
 - Shared menu and Log out action.
 
