@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Log in — M's Portraits</title><meta name="description" content="Step inside, pause, and meet the portraits. Log in or create an account.">
+<meta property="og:title" content="M's Portraits"><meta property="og:description" content="Step inside, pause, and meet the portraits."><meta property="og:type" content="website"><meta property="og:image" content="share.png"><meta property="og:image:alt" content="M's Portraits — Mariam's portrait portfolio."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="share.png">
+<link rel="stylesheet" href="styles.css"><script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script defer src="config.js"></script><script defer src="auth.js"></script>
+</head><body class="login-page">
+<div class="pattern" aria-hidden="true"></div>
+<main class="login-main" id="main">
+<h1>M's Portraits</h1><p>Step inside, pause, and meet the portraits.</p>
+<div class="login-panel" id="login-panel">
+<div class="modes" role="group" aria-label="Account access"><button type="button" data-mode="login" aria-pressed="true">Log in</button><button type="button" data-mode="signup" aria-pressed="false">Sign up</button></div>
+<form id="auth-form">
+<label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+<label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required>
+<button class="primary" id="submit" type="submit">Log in</button>
+</form></div>
+<p id="auth-feedback" class="status" role="status" aria-live="polite"></p>
+<div class="session-actions" id="session-actions" hidden><a class="cta" href="index.html">Enter the portfolio</a><button type="button" class="primary" data-logout>Log out</button></div>
+<noscript><p>JavaScript is needed to sign up and log in.</p></noscript>
+</main></body></html>
