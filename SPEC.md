@@ -32,8 +32,11 @@ Content:
 - A clear link to Gallery.
 - Shared menu and Log out action.
 
-One featured portrait is the proposed initial layout.
-Ask Mariam which portrait to feature before selecting an image.
+Mariam selected Adolescence as the featured portrait.
+File: Images/Adolescence.jpeg.
+Alt text: "A representation of navigation through adolescence and the transformation that comes with it."
+Display the complete image in black and white without cropping or stretching on desktop and phones.
+No accompanying artwork note has been supplied.
 
 ### gallery.html — Gallery
 Purpose: present the portraits in an organized, airy collection.
@@ -71,7 +74,7 @@ All links within the site are relative.
 ## Content available
 Mariam has portrait images and notes about them.
 She will create an artist introduction.
-The image files, notes, introduction, artwork order, featured portrait, and factual alt descriptions still need to be supplied.
+Portrait image files are present. The featured portrait is Adolescence, with alt text supplied by Mariam above. Gallery selection, order, matching notes, other alt descriptions and the artist introduction still need to be supplied.
 
 ## Content rule
 Never invent facts, dimensions, dates, or names Mariam has not given.
@@ -160,7 +163,7 @@ Scheme B is selected; the four pages now live at the folder root.
 The comparison studies are removed. Production authentication requirements apply.
 Portrait files are present in Images/; selection, order, notes, factual alt
 descriptions and the artist introduction are still awaiting Mariam.
-Until supplied, Home and Gallery use labelled placeholders.
+Home displays Adolescence with Mariam's supplied alt text. Gallery uses labelled placeholders until its content decisions are supplied.
 Supabase public configuration belongs in config.js. With configuration missing,
 protected pages redirect to login.html and login shows an inline setup message.
 No mock login or preview bypass is included. Live authentication and deployed
