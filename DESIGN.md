@@ -1,28 +1,32 @@
 # M's Portraits — Design
 
 ## Concept
-M's Portraits is a calm, welcoming space for Mariam's portraits, inviting other artists and art lovers to pause and reflect. Black-and-white artwork, soft blue details, and an orderly layout create an introspective experience that feels calm, pretty, and organized.
+M's Portraits is a calm, welcoming space for Mariam's portraits, inviting other artists and art lovers to pause and reflect. Black-and-white artwork, deep burgundy details, and an orderly layout create an introspective experience that feels calm, pretty, and organized.
 
 ## Reference
 Reference: maman café branding.
 Source: https://mamannyc.com/journal/blue-and-white-pattern-design
 
-Borrow the system: a restrained blue-and-white palette, delicate decorative rhythm, and a comforting sense of welcome.
+Borrow the system: a restrained black, warm-white and burgundy palette, delicate decorative rhythm, and a comforting sense of welcome.
 Create an original, sparse pattern using simple lines and dots; keep it around the edges of the log-in page.
 Do not reproduce maman's recognizable patterns or identity.
 No reference names, logos, text, images, or fonts are copied into the site.
 
 ## Colour and material
-- Warm white #FAF8F3: page backgrounds and form surfaces; evokes paper.
-- Pale blue #E7EEF3: quiet decorative areas and button hover backgrounds.
-- Muted blue #B7CAD9: original patterns and decorative rules; never body text.
-- Deep blue #34546B: links, primary buttons, and keyboard focus indicators.
-- Charcoal #292D30: headings, body text, and artwork notes.
-- Plain grey #DEDEDE: missing-image placeholders, with charcoal labels.
+- Warm white #FAF8F3: page backgrounds and quiet, solid text and form surfaces.
+- Black #191919: headings, body text, site name and artwork notes.
+- Deep burgundy #6B2038: links, primary buttons and keyboard focus indicators.
+- Dark burgundy #4B1627: button hover backgrounds.
+- Muted burgundy #C6A7AF: decorative rules and the original login edge pattern; never body text.
+- Plain grey #DEDEDE: missing-image placeholders, with black labels.
 
-The material feeling is warm paper and delicate blue ink.
-Keep textures subtle and away from artwork and text.
-Use charcoal or deep blue text on light backgrounds and warm white text on deep blue buttons.
+Use a delicate CSS paper texture: faint, irregularly spaced ink-like flecks
+and fine grain on warm white. It sits in the surrounding whitespace, behind
+solid warm-white text surfaces; never overlay it on artwork, captions, forms
+or text. No external texture images are needed.
+Keep the material feeling quiet, like warm paper and burgundy ink.
+Use black or deep burgundy text on warm white, and warm white on burgundy buttons.
+Keep scheme B's layout, type, spacing and monochrome image treatment unchanged.
 
 ## Typography
 Use Georgia for headings, body text and the site name, with a generic serif
@@ -70,22 +74,22 @@ No moving artwork, parallax, animated patterns, or elaborate page transitions.
 Respect reduced-motion preferences by removing fades and transitions.
 
 ## Log-in page
-Use a warm-white background with a sparse, original blue pattern around the outer edges.
+Use a warm-white background with a sparse, original burgundy pattern around the outer edges.
 Place a simple form in the centre, with a maximum width of 420px.
 Show the site name above this welcome line:
 "Step inside, pause, and meet the portraits."
 
 Provide clearly labelled Log in and Sign up modes.
 Both use visible Email and Password labels.
-Use a deep-blue primary button and plain inline feedback.
+Use a burgundy primary button and plain inline feedback.
 Keep the pattern clear of the form so the page feels welcoming and easy to read.
 
 ## Menu and buttons
 On protected pages, show the text site name, Home, Gallery, About, and Log out.
 Use a visible, compact menu that wraps neatly on phones.
 Indicate the current page with an underline and accessible current-page state.
-Use deep-blue buttons with warm-white text, modest rounded corners, and no heavy shadows.
-Secondary actions use deep-blue text with an underline or visible border.
+Use burgundy buttons with warm-white text, modest rounded corners, and no heavy shadows.
+Secondary actions use burgundy text with an underline or visible border.
 Interactive targets are at least 44px high, with clear keyboard focus.
 
 ## Tone of voice
@@ -109,7 +113,7 @@ Use a maximum portrait width of 360px on Home and abundant warm-white space.
 The atmosphere is formal, contemplative and gallery-like.
 Gallery retains a three/two/one-column grid; notes stay with their portraits.
 About uses a centered, narrow reading column. Login uses the same typography
-and a centered form, with the sparse original blue pattern at the outer edges.
+and a centered form, with the sparse original burgundy pattern at the outer edges.
 Home copy is “Mariam's portrait portfolio.” and
 “Step inside, pause, and meet the portraits.”
 The comparison previews and scheme folders are removed.

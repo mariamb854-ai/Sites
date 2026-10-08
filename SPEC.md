@@ -18,7 +18,7 @@ Content:
 - Log in and Sign up modes.
 - Email and password fields with visible labels.
 - Submit button and inline feedback.
-- Warm-white background and a delicate original blue pattern.
+- Warm-white background and a delicate original burgundy pattern.
 
 This page is never gated.
 If a visitor is already signed in, provide a link to index.html and a Log out action.
