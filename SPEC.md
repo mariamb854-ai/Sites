@@ -101,8 +101,8 @@ Content:
 - Artist introduction written by Mariam.
 - Shared menu and Log out action.
 
-Until supplied, use:
-[ADD: Mariam's artist introduction]
+Approved artist introduction (use this exact text):
+My name is Mariam, and this collection brings together portraits I have created. I love drawing people because the human face is so expressive, and portraiture gives me a way to express myself. Through each portrait, I explore symbolism and the meanings a face can hold. I use the backgrounds of my portraits to connect each person with their stage of life, exploring growth, identity, and change. Drawing has always been something I love, especially working with pencil and colored pencil. I invite you to take your time with these portraits and discover what speaks to you.
 
 An artist photograph is not required.
 
@@ -115,8 +115,8 @@ All links within the site are relative.
 
 ## Content available
 Mariam has portrait images and notes about them.
-She will create an artist introduction.
-Portrait image files are present. The featured portrait is Adolescence, with alt text supplied by Mariam above. Gallery selection and order are recorded above. Gallery alt descriptions are approved. The artist introduction still needs to be supplied. The artwork notes in the Gallery section have been approved by Mariam.
+Mariam supplied the approved artist introduction in the About section.
+Portrait image files are present. The featured portrait is Adolescence, with alt text supplied by Mariam above. Gallery selection and order are recorded above. Gallery alt descriptions are approved. The artist introduction is supplied above. The artwork notes in the Gallery section have been approved by Mariam.
 
 ## Content rule
 Never invent facts, dimensions, dates, or names Mariam has not given.
@@ -203,7 +203,7 @@ Optimize display copies without overwriting originals.
 ## First implementation status
 Scheme B is selected; the four pages now live at the folder root.
 The comparison studies are removed. Production authentication requirements apply.
-Portrait files are present in Images/. Gallery selection, order, notes and alt descriptions are approved; the artist introduction is still awaiting Mariam.
+Portrait files are present in Images/. Gallery selection, order, notes and alt descriptions are approved; the artist introduction is approved and displayed on About.
 Home displays Adolescence with Mariam's supplied alt text. Gallery displays all eleven selected portraits with approved alt text, titles and notes.
 Supabase public configuration belongs in config.js. With configuration missing,
 protected pages redirect to login.html and login shows an inline setup message.
