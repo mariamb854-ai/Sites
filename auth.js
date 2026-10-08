@@ -12,6 +12,7 @@
   let mode = "login";
   let client;
   let ready = false;
+  let busy = false;
   let expiryTimer;
   const tell = (message) => {
     if (feedback) { feedback.hidden = false; feedback.textContent = message; }
@@ -20,16 +21,17 @@
     if (portfolio) portfolio.hidden = true;
     location.replace("login.html");
   };
+  const validSession = (session) => !!session && Number.isFinite(session.expires_at) && session.expires_at * 1000 > Date.now();
   const showSession = (session) => {
     clearTimeout(expiryTimer);
     if (protectedPage) {
-      if (!session || session.expires_at * 1000 <= Date.now()) { toLogin(); return; }
+      if (!validSession(session)) { toLogin(); return; }
       portfolio.hidden = false;
       gate.hidden = true;
       expiryTimer = setTimeout(checkSession, Math.min(Math.max(1000, session.expires_at * 1000 - Date.now()), 2147483647));
     } else {
-      panel.hidden = !!session;
-      sessionActions.hidden = !session;
+      panel.hidden = validSession(session);
+      sessionActions.hidden = !validSession(session);
     }
   };
   async function checkSession() {
@@ -46,6 +48,7 @@
   formControls().forEach(control => { control.disabled = true; });
   document.querySelectorAll("[data-mode]").forEach(button => {
     button.addEventListener("click", () => {
+      if (busy) return;
       mode = button.dataset.mode;
       document.querySelectorAll("[data-mode]").forEach(item => {
         item.setAttribute("aria-pressed", String(item === button));
@@ -57,7 +60,11 @@
   });
   if (form) form.addEventListener("submit", async (event) => {
     event.preventDefault();
+    if (busy) return;
     if (!ready) { tell("Account access is awaiting the site's Supabase setup."); return; }
+    busy = true;
+    const requestMode = mode;
+    document.querySelectorAll("[data-mode]").forEach(button => { button.disabled = true; });
     formControls().forEach(control => { control.disabled = true; });
     tell(mode === "signup" ? "Creating your account…" : "Logging in…");
     const credentials = {
@@ -65,7 +72,7 @@
       password: document.getElementById("password").value
     };
     try {
-      const result = mode === "signup"
+      const result = requestMode === "signup"
         ? await client.auth.signUp({ ...credentials, options: { emailRedirectTo: new URL("login.html", location.href).href } })
         : await client.auth.signInWithPassword(credentials);
       if (result.error) {
@@ -73,11 +80,13 @@
         return;
       }
       document.getElementById("password").value = "";
-      if (result.data.session) location.assign("index.html");
+      if (validSession(result.data.session)) location.assign("index.html");
       else tell("Check your email to confirm your account, then return here to log in.");
     } catch {
       tell("We couldn't connect. Check your connection and try again.");
     } finally {
+      busy = false;
+      document.querySelectorAll("[data-mode]").forEach(button => { button.disabled = false; });
       formControls().forEach(control => { control.disabled = false; });
     }
   });
@@ -113,7 +122,11 @@
       await checkSession();
       ready = true;
       formControls().forEach(control => { control.disabled = false; });
-      window.addEventListener("pageshow", checkSession);
+      window.addEventListener("pagehide", () => { if (portfolio) portfolio.hidden = true; });
+      window.addEventListener("pageshow", () => {
+        if (portfolio) portfolio.hidden = true;
+        checkSession();
+      });
       document.addEventListener("visibilitychange", () => { if (!document.hidden) checkSession(); });
     } catch {
       if (protectedPage) toLogin();
