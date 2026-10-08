@@ -62,7 +62,7 @@ Use italic Georgia titles at 28px and left-aligned notes beneath them, with
 On phones, stack each image above its title and note; use 24px titles,
 24px between image and text, a consistent minimum caption area of 120px,
 and 64px between portrait entries.
-About: a centered, complete artist photograph above the introduction, with a maximum width of 320px and 32px before the text. Keep its natural square proportions, black-and-white treatment and generous surrounding space.
+About: a centered, complete artist photograph above the introduction, with a maximum width of 320px and 32px before the text. Keep its natural square proportions and generous surrounding space. The person stays black and white against a flat deep burgundy #6B2038 background; do not apply grayscale to this edited display copy.
 Let pages grow naturally when content requires it; never shrink artwork or text to force a single screen.
 
 ## Images

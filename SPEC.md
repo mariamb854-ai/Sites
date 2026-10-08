@@ -105,7 +105,7 @@ Content:
 Approved artist introduction (use this exact text):
 My name is Mariam, and this collection brings together portraits I have created. I love drawing people because the human face is so expressive, and portraiture gives me a way to express myself. Through each portrait, I explore symbolism and the meanings a face can hold. I use the backgrounds of my portraits to connect each person with their stage of life, exploring growth, identity, and change. Drawing has always been something I love, especially working with pencil and colored pencil. I invite you to take your time with these portraits and discover what speaks to you.
 
-Mariam selected Images/Self Portrait.jpg for About. Display the complete black-and-white photograph above the artist introduction. Alt text: "Mariam smiling, wearing a light headscarf and a floral-patterned top." Preserve the original file.
+Mariam selected Images/Self Portrait.jpg for About. Display the complete photograph above the artist introduction, with Mariam in black and white against a burgundy background. Use the separate edited display copy Images/self-portrait-burgundy.jpg. Alt text: "Mariam smiling, wearing a light headscarf and a floral-patterned top." Preserve the original file.
 
 ## Shared page requirements
 Every page has a unique document title and a one-line description.

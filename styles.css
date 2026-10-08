@@ -83,3 +83,4 @@ h1,h2,p,nav,.brand,figcaption,label,.modes,.login-panel,.session-actions,.artwor
   .gallery-sequence figcaption h2{font-size:24px}
 }
 .artist-photo{max-width:320px;margin:0 auto 32px}
+.artist-photo,.artist-photo:hover,.artist-photo:focus{filter:none}
