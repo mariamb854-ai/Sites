@@ -65,3 +65,7 @@ h1,h2,p,nav,.brand,figcaption,label,.modes,.login-panel,.session-actions,.artwor
 .artwork:hover,.artwork:focus{filter:grayscale(1)}
 .primary{background-color:#6B2038}
 .primary:hover{background-color:#4B1627}
+/* Shared gallery image and heading heights align captions within each row. */
+.gallery-image{aspect-ratio:4/5;background:#FAF8F3}
+.gallery-image .artwork{width:100%;height:100%;object-fit:contain}
+.grid figcaption h2{min-height:2.8em;margin:0 0 16px}

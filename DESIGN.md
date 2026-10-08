@@ -52,6 +52,10 @@ Keep reading text within approximately 60 characters per line.
 Home: one featured portrait and a brief introduction.
 This is a proposed starting arrangement; Mariam chooses the featured portrait.
 Gallery: three columns on wide screens, two on medium screens, one on phones.
+Use equal 4:5 warm-white image display areas in Gallery. Center each complete
+image within its area using object-fit: contain. Reserve two heading lines
+for every gallery title so the notes begin on the same line across each row.
+Keep 16px between image and caption, and between title and note. No borders or frames.
 About: a short introduction with generous surrounding space.
 Let pages grow naturally when content requires it; never shrink artwork or text to force a single screen.
 
