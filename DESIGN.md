@@ -37,7 +37,7 @@ No external font request is needed.
 
 Main headings: italic, regular weight, 40px with 1.2 line-height on desktop,
 30px on phones. Section headings: 28px desktop, 24px on phones.
-Artwork headings: 20px with 1.4 line-height.
+Artwork headings: 20px with 1.4 line-height by default. Home's Adolescence title uses regular Georgia at 28px desktop and 24px on phones, centered with 8px before its 16px sans-serif description.
 Body: 18px with 1.6 line-height.
 Navigation, labels and captions: 16px with 1.5 line-height.
 Avoid all-capital paragraphs and decorative lettering.
