@@ -51,7 +51,7 @@ Use an 8px spacing scale: 8, 16, 24, 32, 48, and 64px.
 Leave 48–64px between major sections.
 Keep reading text within approximately 60 characters per line.
 
-Home: show the complete Adolescence image immediately below the header, up to 1024px wide, with its featured label and approved caption below. Follow with the existing introduction and View Gallery link, using 48px between image and introduction. No cropping or fixed-height banner.
+Home: place the centered existing introduction beneath the header and above the complete Adolescence image, up to 1024px wide. Leave 48px before the image on desktop and 32px on phones. Keep the featured label, title, approved note and View Gallery link beneath the image. Preserve existing typography. No cropping or fixed-height banner.
 Gallery: one portrait per row, with its title and note beside it on desktop
 and medium screens. Keep the image on the left and text on the right for a
 steady reading rhythm. Use a centered maximum row width of 960px, a 48px
@@ -118,7 +118,7 @@ Do not invent interpretations, biography, or claims about the work.
 5. Never copy a reference's identity or invent content about Mariam or her art.
 ## Selected direction — Quiet exhibition (scheme B)
 Mariam selected scheme B. It is now the design for the whole site.
-Use a slim horizontal header on protected pages: site name at left and compact navigation at right, with 24px vertical padding and 48px side padding. On phones, wrap navigation below the name with left alignment and 20px side padding. Home gives the complete featured artwork priority above its introduction. Gallery retains one portrait per row and burgundy descriptions. About places the photograph beside the introduction on desktop. Login retains its centered form, serif typography and sparse burgundy edge pattern.
+Use a slim horizontal header on protected pages: site name at left and compact navigation at right, with 24px vertical padding and 48px side padding. On phones, wrap navigation below the name with left alignment and 20px side padding. Home places its centered introduction above the complete featured artwork. Gallery retains one portrait per row and burgundy descriptions. About places the photograph beside the introduction on desktop. Login retains its centered form, serif typography and sparse burgundy edge pattern.
 Home copy is “Mariam's portrait portfolio.” and
 “Step inside, pause, and meet the portraits.”
 The comparison previews and scheme folders are removed.
