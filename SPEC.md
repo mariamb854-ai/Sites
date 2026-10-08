@@ -164,4 +164,4 @@ Until supplied, Home and Gallery use labelled placeholders.
 Supabase public configuration belongs in config.js. With configuration missing,
 protected pages redirect to login.html and login shows an inline setup message.
 No mock login or preview bypass is included. Live authentication and deployed
-allowed URLs must be verified once the public settings and deployment exist.
+allowed URLs must be verified once the deployment exists. Mariam supplied the public project URL and publishable browser key; these are now configured in config.js. Live sign-up, email confirmation and login still need an account test.
