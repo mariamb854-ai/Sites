@@ -36,7 +36,7 @@ Mariam selected Adolescence as the featured portrait.
 File: Images/Adolescence.jpeg.
 Alt text: "A representation of navigation through adolescence and the transformation that comes with it."
 Display the complete image in black and white without cropping or stretching on desktop and phones.
-No accompanying artwork note has been supplied.
+Approved note: "Navigating adolescence and the transformation that comes with it."
 
 ### gallery.html — Gallery
 Purpose: present the portraits in an organized, airy collection.
@@ -48,7 +48,38 @@ Content:
 - Artwork titles only where supplied.
 - Shared menu and Log out action.
 
-Ask Mariam for the selection, order, and matching notes.
+Mariam selected these gallery titles and this exact order:
+1. Innocence — Images/Innocence.jpeg
+2. Childhood Moments — Images/Childhood Moments.jpeg
+3. Curiosity — Images/Curiosity.jpeg
+4. First Lessons — Images/First Lessons.jpeg
+5. Becoming — Images/Becoming.jpeg
+6. Adolescence — Images/Adolescence.jpeg
+7. Quiet Chaos — Images/Quiet Chaos.jpeg
+8. Unspoken — Images/Unspoken.jpeg
+9. Written in Memory — Images/Written in Memory.jpeg
+10. What Grows Within — Images/What Grows Within.jpeg
+11. A World Too Heavy — Images/A World Too Heavy.jpeg
+
+Reuse Mariam's supplied Adolescence alt text from the Home section.
+Alt descriptions for the other ten portraits are awaiting Mariam; ask before
+adding those images. Use labelled image placeholders until alt descriptions are supplied.
+
+### Approved artwork notes
+Mariam approved these notes for publication. Notes are separate from image alt text.
+- Innocence: A moment before experience begins to change how we see the world.
+- Childhood Moments: Small moments of childhood that stay with us as we grow.
+- Curiosity: The urge to look closer, ask questions, and discover something new.
+- First Lessons: The early experiences that begin to shape our understanding.
+- Becoming: A reflection on growing into a self that is still taking shape.
+- Adolescence: Navigating adolescence and the transformation that comes with it.
+- Quiet Chaos: A quiet exterior can hold a restless inner world.
+- Unspoken: Some feelings remain present even when words cannot express them.
+- Written in Memory: What we remember becomes part of how we understand ourselves.
+- What Grows Within: Inner growth can unfold gradually, beyond what others can see.
+- A World Too Heavy: A reflection on carrying more than we know how to hold.
+
+Self Portrait is not part of this selected gallery.
 Do not add invented titles, dates, dimensions, materials, or sitter names.
 Use natural scrolling when the collection requires it.
 
@@ -74,7 +105,7 @@ All links within the site are relative.
 ## Content available
 Mariam has portrait images and notes about them.
 She will create an artist introduction.
-Portrait image files are present. The featured portrait is Adolescence, with alt text supplied by Mariam above. Gallery selection, order, matching notes, other alt descriptions and the artist introduction still need to be supplied.
+Portrait image files are present. The featured portrait is Adolescence, with alt text supplied by Mariam above. Gallery selection and order are recorded above. Other alt descriptions and the artist introduction still need to be supplied. The artwork notes in the Gallery section have been approved by Mariam.
 
 ## Content rule
 Never invent facts, dimensions, dates, or names Mariam has not given.
