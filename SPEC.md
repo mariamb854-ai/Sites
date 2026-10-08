@@ -62,8 +62,19 @@ Mariam selected these gallery titles and this exact order:
 11. A World Too Heavy — Images/A World Too Heavy.jpeg
 
 Reuse Mariam's supplied Adolescence alt text from the Home section.
-Alt descriptions for the other ten portraits are awaiting Mariam; ask before
-adding those images. Use labelled image placeholders until alt descriptions are supplied.
+All gallery alt descriptions are approved by Mariam. Display all eleven selected portraits.
+
+### Approved gallery alt descriptions
+- Innocence: A baby beside a stuffed rabbit on softly patterned fabric, evoking the comfort of infancy.
+- Childhood Moments: A curly-haired child seated in a patterned box, suggesting childhood play and imagination.
+- Curiosity: A young child exploring an object, surrounded by paint-splash shapes that suggest discovery and experimentation.
+- First Lessons: A child surrounded by letters and crayons, connecting early childhood with learning and creativity.
+- Becoming: A child beside puzzle pieces and stars, suggesting an identity gradually taking shape.
+- Quiet Chaos: Upright and inverted portraits with hands touching the faces, suggesting conflicting feelings beneath a quiet appearance.
+- Unspoken: A close-up portrait framed by crosshatched lines, suggesting feelings held beneath the surface.
+- Written in Memory: A man against geometric patterns made from printed text, suggesting a life shaped by accumulated stories and memories.
+- What Grows Within: A face partly replaced by an anatomical heart, with branching growth, droplets and a bird suggesting inner change.
+- A World Too Heavy: A seated young child within a large circular outline, suggesting vulnerability within a world larger than themselves.
 
 ### Approved artwork notes
 Mariam approved these notes for publication. Notes are separate from image alt text.
@@ -105,7 +116,7 @@ All links within the site are relative.
 ## Content available
 Mariam has portrait images and notes about them.
 She will create an artist introduction.
-Portrait image files are present. The featured portrait is Adolescence, with alt text supplied by Mariam above. Gallery selection and order are recorded above. Other alt descriptions and the artist introduction still need to be supplied. The artwork notes in the Gallery section have been approved by Mariam.
+Portrait image files are present. The featured portrait is Adolescence, with alt text supplied by Mariam above. Gallery selection and order are recorded above. Gallery alt descriptions are approved. The artist introduction still needs to be supplied. The artwork notes in the Gallery section have been approved by Mariam.
 
 ## Content rule
 Never invent facts, dimensions, dates, or names Mariam has not given.
@@ -192,9 +203,8 @@ Optimize display copies without overwriting originals.
 ## First implementation status
 Scheme B is selected; the four pages now live at the folder root.
 The comparison studies are removed. Production authentication requirements apply.
-Portrait files are present in Images/; selection, order, notes, factual alt
-descriptions and the artist introduction are still awaiting Mariam.
-Home displays Adolescence with Mariam's supplied alt text. Gallery uses labelled placeholders until its content decisions are supplied.
+Portrait files are present in Images/. Gallery selection, order, notes and alt descriptions are approved; the artist introduction is still awaiting Mariam.
+Home displays Adolescence with Mariam's supplied alt text. Gallery displays all eleven selected portraits with approved alt text, titles and notes.
 Supabase public configuration belongs in config.js. With configuration missing,
 protected pages redirect to login.html and login shows an inline setup message.
 No mock login or preview bypass is included. Live authentication and deployed
