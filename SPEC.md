@@ -41,7 +41,7 @@ Approved note: "Navigating adolescence and the transformation that comes with it
 ### gallery.html — Gallery
 Purpose: present the portraits in an organized, airy collection.
 Content:
-- Page heading and a one-line description.
+- Page heading and the one-line description: "My work".
 - Responsive portrait grid.
 - Complete, uncropped images displayed in black and white.
 - Mariam's supplied notes beneath the corresponding images.
@@ -98,6 +98,7 @@ Use natural scrolling when the collection requires it.
 Purpose: introduce the artist in her own words.
 Content:
 - Heading identifying Mariam.
+- One-line description: "Speaking through art".
 - Artist introduction written by Mariam.
 - Shared menu and Log out action.
 
