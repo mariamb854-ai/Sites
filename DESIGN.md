@@ -14,8 +14,8 @@ No reference names, logos, text, images, or fonts are copied into the site.
 
 ## Colour and material
 - Warm white #FAF8F3: page backgrounds and quiet, solid text and form surfaces.
-- Black #191919: headings, body text, site name and artwork notes.
-- Deep burgundy #6B2038: links, primary buttons and keyboard focus indicators.
+- Black #191919: headings, body text, site name and Home artwork note.
+- Deep burgundy #6B2038: Gallery descriptions, links, primary buttons and keyboard focus indicators.
 - Dark burgundy #4B1627: button hover backgrounds.
 - Muted burgundy #C6A7AF: decorative rules and the original login edge pattern; never body text.
 - Plain grey #DEDEDE: missing-image placeholders, with black labels.
@@ -54,12 +54,14 @@ This is a proposed starting arrangement; Mariam chooses the featured portrait.
 Gallery: one portrait per row, with its title and note beside it on desktop
 and medium screens. Keep the image on the left and text on the right for a
 steady reading rhythm. Use a centered maximum row width of 960px, a 48px
-column gap and 64px between rows. Image areas are warm white, with a maximum
-height of 640px and object-fit: contain. Each full image remains visible.
+column gap and exactly 64px between visible images on desktop. Images use their
+natural proportions without fixed-ratio blank space; object-fit: contain keeps
+each full image visible. Notes are deep burgundy; titles remain black.
 Use italic Georgia titles at 28px and left-aligned notes beneath them, with
 16px between title and note. No reserved heading height or ornamental frames.
 On phones, stack each image above its title and note; use 24px titles,
-24px between image and text, and 64px between portraits.
+24px between image and text, a consistent minimum caption area of 120px,
+and 64px between portrait entries.
 About: a short introduction with generous surrounding space.
 Let pages grow naturally when content requires it; never shrink artwork or text to force a single screen.
 
