@@ -84,3 +84,26 @@ h1,h2,p,nav,.brand,figcaption,label,.modes,.login-panel,.session-actions,.artwor
 }
 .artist-photo{max-width:320px;margin:0 auto 32px}
 .artist-photo,.artist-photo:hover,.artist-photo:focus{filter:none}
+
+/* Portfolio reference: compact header and artwork-led presentation. */
+header{flex-direction:row;justify-content:space-between;flex-wrap:wrap;padding:24px 48px;gap:8px 32px}
+header nav{justify-content:flex-end;gap:24px}
+header .status{flex-basis:100%;margin:8px 0 0;text-align:left}
+.home-main{padding-top:16px}
+.home-main .featured{max-width:none;margin:0 auto}
+.home-main .featured figcaption{padding-top:24px}
+.home-main .featured h2{margin-bottom:8px}
+.home-intro{margin:48px auto 0;max-width:60ch}
+.about-copy{display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:64px;align-items:center;max-width:960px;text-align:left}
+.about-copy .artist-photo{max-width:360px;margin:0}
+.about-copy p{margin:0;max-width:60ch}
+@media(max-width:760px){
+  .about-copy{grid-template-columns:minmax(0,1fr);gap:32px}
+  .about-copy .artist-photo{margin:0 auto}
+}
+@media(max-width:600px){
+  header{padding:20px;gap:8px 24px}
+  header nav{justify-content:flex-start;gap:20px;flex-basis:100%}
+  .home-main{padding-top:16px}
+  .home-intro{margin-top:32px}
+}

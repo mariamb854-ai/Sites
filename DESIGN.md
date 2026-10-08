@@ -4,7 +4,9 @@
 M's Portraits is a calm, welcoming space for Mariam's portraits, inviting other artists and art lovers to pause and reflect. Black-and-white artwork, deep burgundy details, and an orderly layout create an introspective experience that feels calm, pretty, and organized.
 
 ## Reference
-Reference: maman café branding.
+Layout reference: Mariam supplied a screenshot of the Maria Hall portfolio: a slim horizontal header, compact navigation and a large artwork beneath it. Borrow its alignment and visual hierarchy, using only Mariam's images and existing content.
+
+Material reference: maman café branding.
 Source: https://mamannyc.com/journal/blue-and-white-pattern-design
 
 Borrow the system: a restrained black, warm-white and burgundy palette, delicate decorative rhythm, and a comforting sense of welcome.
@@ -26,7 +28,7 @@ solid warm-white text surfaces; never overlay it on artwork, captions, forms
 or text. No external texture images are needed.
 Keep the material feeling quiet, like warm paper and burgundy ink.
 Use black or deep burgundy text on warm white, and warm white on burgundy buttons.
-Keep scheme B's layout, type, spacing and monochrome image treatment unchanged.
+Retain scheme B's serif typography and monochrome artwork while refining the layout to match the supplied portfolio reference.
 
 ## Typography
 Use Georgia for headings, body text and the site name, with a generic serif
@@ -49,8 +51,7 @@ Use an 8px spacing scale: 8, 16, 24, 32, 48, and 64px.
 Leave 48–64px between major sections.
 Keep reading text within approximately 60 characters per line.
 
-Home: one featured portrait and a brief introduction.
-This is a proposed starting arrangement; Mariam chooses the featured portrait.
+Home: show the complete Adolescence image immediately below the header, up to 1024px wide, with its featured label and approved caption below. Follow with the existing introduction and View Gallery link, using 48px between image and introduction. No cropping or fixed-height banner.
 Gallery: one portrait per row, with its title and note beside it on desktop
 and medium screens. Keep the image on the left and text on the right for a
 steady reading rhythm. Use a centered maximum row width of 960px, a 48px
@@ -62,7 +63,7 @@ Use italic Georgia titles at 28px and left-aligned notes beneath them, with
 On phones, stack each image above its title and note; use 24px titles,
 24px between image and text, a consistent minimum caption area of 120px,
 and 64px between portrait entries.
-About: a centered, complete artist photograph above the introduction, with a maximum width of 320px and 32px before the text. Keep its natural square proportions and generous surrounding space. The person stays black and white against a flat deep burgundy #6B2038 background; do not apply grayscale to this edited display copy.
+About: use a two-column layout with the complete artist photograph on the left (up to 360px) and the existing introduction on the right, separated by 64px. Left-align the introduction. At 760px and below, stack the photograph above the text with a 32px gap. The person stays black and white against burgundy; do not apply grayscale to the edited display copy.
 Let pages grow naturally when content requires it; never shrink artwork or text to force a single screen.
 
 ## Images
@@ -117,13 +118,7 @@ Do not invent interpretations, biography, or claims about the work.
 5. Never copy a reference's identity or invent content about Mariam or her art.
 ## Selected direction — Quiet exhibition (scheme B)
 Mariam selected scheme B. It is now the design for the whole site.
-Center the site name above the wrapping navigation. Center the home introduction
-above one complete portrait, with an underlined View Gallery link below it.
-Use a maximum portrait width of 360px on Home and abundant warm-white space.
-The atmosphere is formal, contemplative and gallery-like.
-Gallery presents one portrait per row; its title and note sit beside the image on desktop and beneath it on phones.
-About uses a centered, narrow reading column. Login uses the same typography
-and a centered form, with the sparse original burgundy pattern at the outer edges.
+Use a slim horizontal header on protected pages: site name at left and compact navigation at right, with 24px vertical padding and 48px side padding. On phones, wrap navigation below the name with left alignment and 20px side padding. Home gives the complete featured artwork priority above its introduction. Gallery retains one portrait per row and burgundy descriptions. About places the photograph beside the introduction on desktop. Login retains its centered form, serif typography and sparse burgundy edge pattern.
 Home copy is “Mariam's portrait portfolio.” and
 “Step inside, pause, and meet the portraits.”
 The comparison previews and scheme folders are removed.
