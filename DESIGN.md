@@ -55,7 +55,10 @@ Gallery: three columns on wide screens, two on medium screens, one on phones.
 Use equal 4:5 warm-white image display areas in Gallery. Center each complete
 image within its area using object-fit: contain. Reserve two heading lines
 for every gallery title so the notes begin on the same line across each row.
-Keep 16px between image and caption, and between title and note. No borders or frames.
+Keep 16px between image and caption and 8px between title and note.
+Reserve two heading lines only on layouts with multiple columns; use natural
+title height on phones. Align shorter titles to the bottom of the reserved
+heading area so the visible title-to-note gap stays compact. No borders or frames.
 About: a short introduction with generous surrounding space.
 Let pages grow naturally when content requires it; never shrink artwork or text to force a single screen.
 
